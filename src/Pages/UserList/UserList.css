@@ -1,0 +1,11 @@
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+td.userlist-td.userlist-td-7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

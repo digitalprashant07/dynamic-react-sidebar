@@ -18,8 +18,8 @@ function App() {
       <Sidebar>
         <Routes>
           <Route path='/' element={<Dashboard/>} />
-          <Route path='/users' element={<Users/>} />
           <Route path='/dashboard' element={<Dashboard/>} />
+          <Route path='/users' element={<Users/>} />
           <Route path='/analytics' element={<Analytics/>} />
           <Route path='/file-manager' element={<FileManager/>} />
           <Route path='/messages' element={<Messages/>} />

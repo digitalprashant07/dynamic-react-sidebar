@@ -21,15 +21,20 @@ const routes = [
     name: "Home",
     icon: <FaHome />,
   },
-  {
-    path: "/dashboard",
-    name: "Dashboard",
-    icon: <MdDashboard />,
-  },
+  // {
+  //   path: "/dashboard",
+  //   name: "Dashboard",
+  //   icon: <MdDashboard />,
+  // },
   {
     path: "/analytics",
     name: "Analytics",
     icon: <TbBrandGoogleAnalytics />,
+  },
+  {
+    path: "/users",
+    name: "Users",
+    icon: <HiUsers />,
   },
   {
     path: "/file-manager",
@@ -55,11 +60,6 @@ const routes = [
     path: "/setting",
     name: "Setting",
     icon: <BiCog />,
-  },
-  {
-    path: "/users",
-    name: "Users",
-    icon: <HiUsers />,
   },
 ];
 
@@ -105,7 +105,7 @@ const Sidebar = ({ children }) => {
 
   return (
     <div className="main-container">
-      <motion.div animate={{ width: isOpen ? "200px" : "35px", transition:{
+      <motion.div animate={{ width: isOpen ? "200px" : "50px", transition:{
         duration:0.5,
         type:'spring',
         damping:12,
