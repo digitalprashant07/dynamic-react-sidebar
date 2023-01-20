@@ -29,8 +29,9 @@ main{
     justify-content: space-between;
     padding: 15px 10px;
 }
-.logo{
-    font-size: 18px;
+.logo {
+    font-size: 22px;
+    margin-top: 10px;
     line-height: 0;
 }
 .search{

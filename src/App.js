@@ -10,6 +10,7 @@ import Saved from './Pages/Saved';
 import Setting from './Pages/Setting';
 import Users from './Pages/Users';
 import Sidebar from './Components/Sidebar';
+import Adduser from './Components/Adduser';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Router>
       <Sidebar>
         <Routes>
-          <Route path='/' element={<Dashboard/>} />
+          <Route path='/' element={<Users/>} />
           <Route path='/dashboard' element={<Dashboard/>} />
           <Route path='/users' element={<Users/>} />
           <Route path='/analytics' element={<Analytics/>} />
@@ -26,6 +27,7 @@ function App() {
           <Route path='/order' element={<Order/>} />
           <Route path='/saved' element={<Saved/>} />
           <Route path='/setting' element={<Setting/>} />
+          <Route path='/adduser' element={<Adduser/>} />
           <Route path='*' element={<>not found</>} />
         </Routes>
         </Sidebar>

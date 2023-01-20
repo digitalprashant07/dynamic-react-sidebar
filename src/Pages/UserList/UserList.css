@@ -9,3 +9,25 @@ td.userlist-td.userlist-td-7 {
     align-items: center;
     justify-content: center;
 }
+
+.mt40{
+    margin-top: -40px;
+}
+
+a.btn.btn-success.mx-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.btn.btn-danger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.__pencil{
+    margin-right: 4px;
+}
+.__searchdata {
+    display: flex;
+    justify-content: space-between;
+}
