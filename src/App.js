@@ -11,6 +11,7 @@ import Setting from './Pages/Setting';
 import Users from './Pages/Users';
 import Sidebar from './Components/Sidebar';
 import Adduser from './Components/Adduser';
+import Edituser from './Components/Edituser';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path='/saved' element={<Saved/>} />
           <Route path='/setting' element={<Setting/>} />
           <Route path='/adduser' element={<Adduser/>} />
+          <Route path='/edituser/:id' element={<Edituser/>} />
           <Route path='*' element={<>not found</>} />
         </Routes>
         </Sidebar>

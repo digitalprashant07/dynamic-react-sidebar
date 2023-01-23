@@ -51,7 +51,7 @@ function UserList() {
                             <td className='userlist-td'>{userData.university}</td>
                             <td className='userlist-td'>{userData.gender}</td>
                             <td className='userlist-td userlist-td-7'>
-                                <Link to="/editUser" className="btn btn-success mx-2"><BsPencilSquare className='__pencil' /> Edit</Link>
+                                <Link to={"/editUser/" +userData.id}  className="btn btn-success mx-2"><BsPencilSquare className='__pencil' /> Edit</Link>
                                 <Link to="/deleteUser" className="btn btn-danger"><MdDeleteOutline /> Delete</Link>
                             </td>
                         </tr>
