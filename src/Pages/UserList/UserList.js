@@ -48,6 +48,7 @@ return (
     <section className='userlist'>
         <div className=''>
             <h4 className='mt-2'> User Data </h4>
+          <p className='text-success'>{message}</p>
             <div className='d-grid d-md-grid justify-content-md-end mb-3 mt40'>
                 <Link to="/adduser" className='btn btn-success'>Add new User</Link>
             </div>
