@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function addUserForm() {
 
   const [formValue, setFormValue] = useState({ username: '', email: '', phone: '', university: '', gender: '' });
-  const [message, setMessage]=useState();
+  const [message, setMessage] = useState();
   const navigate = useNavigate();
   const handleInput = (e) => {
     const { name, value } = e.target;
@@ -91,6 +91,6 @@ function addUserForm() {
       </div>
     </div>
   )
-}
+};
 
 export default addUserForm;
